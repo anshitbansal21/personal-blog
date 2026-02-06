@@ -4,7 +4,7 @@ import BlogPost from './pages/BlogPost';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/personal-blog'>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/post/:slug" element={<BlogPost />} />
