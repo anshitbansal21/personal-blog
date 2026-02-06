@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.md'],
-  base: '/blog-site/', // Change this to '/repo-name/' when deploying to GitHub Pages
+  base: '/personal-blog/', // Change this to '/repo-name/' when deploying to GitHub Pages
   define: {
     global: 'globalThis',
   },
