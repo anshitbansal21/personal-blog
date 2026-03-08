@@ -4,11 +4,13 @@ import matter from 'gray-matter';
 
 // Import all markdown files
 import welcomeRaw from '../content/posts/the-beginning.md?raw';
+import stravaMcpRaw from '../content/posts/project-1-strava-mcp.md?raw';
 
 function Home() {
   // Parse markdown files
   const posts = [
     { raw: welcomeRaw },
+    { raw: stravaMcpRaw },
   ].map(({ raw }) => {
     const { data } = matter(raw);
     return data;

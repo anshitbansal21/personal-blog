@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 
 // Import all markdown files
 import beginningsRaw from '../content/posts/the-beginning.md?raw';
+import projectStravaMcp from '../content/posts/project-1-strava-mcp.md?raw';
 
 function BlogPost() {
   const { slug } = useParams();
@@ -12,6 +13,7 @@ function BlogPost() {
   // Map of slug to raw content
   const postsMap = {
     'the-beginning': beginningsRaw,
+    'project-strava-mcp': projectStravaMcp
   };
 
   const raw = postsMap[slug];
