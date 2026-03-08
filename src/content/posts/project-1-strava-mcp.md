@@ -5,7 +5,9 @@ excerpt: "Built an MCP to help me with my workout planning and analysis."
 slug: "project-strava-mcp"
 ---
 ## Why did I build this?
-MCPs have been a hot topic in 2025 and tbh I mostly started using them in early 2026. While using them was fun I kind of wanted to understand how they are implemented, and also this seemed like an easy project to begin with to break my habit of tutorial hell where I do less, watch more.
+MCPs have been a hot topic in 2025 and tbh I mostly started using them in early 2026. Personally when I came up with this idea, I was going through an ACL injury and wanted to build something which I could use to plan my workouts better and also flag when it looks like I am overtraining which could result in an injury. 
+
+This seemed like an easy project to begin with to break my habit of tutorial hell where I do less, watch more. 
 
 ## What is an MCP?
 Any public LLM available to us is trained on certain data, which mostly cannot be the data which is private to you/your company. Now if I want the LLM to get context of this data automatically, meaning not me copy pasting this data, I would provide this data using certain tools, which are shared to everyone using a protocol called MCP (Model Context Protocol)
